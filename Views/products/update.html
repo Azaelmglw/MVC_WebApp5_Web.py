@@ -1,0 +1,64 @@
+$def with(data)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <a href = "/"><h1>Index</h1></a>
+
+    </head>
+
+    <body>
+
+        <form method = "POST">
+
+            <div class = "form-group">
+
+                    <label for = "id">Id</label>
+                    <input type = "text" class = "form-control" readonly = "true" value = "$data.p_id" id = "id" name = "id">
+
+            </div>
+
+            <br>
+
+            <div class = "form-group">
+
+                    <label for = "name">Name</label>
+                    <input type = "text" class = "form-control" value = "$data.p_name" id = "name" name = "name">
+
+            </div>
+
+            <br>
+
+            <div class = "form-group">
+
+                    <label for = "description">Gender</label>
+                    <input type = "text" class = "form-control" value = "$data.p_description" id = "description" name = "description">
+
+            </div>
+
+            <br>
+
+            <div class = "form-group">
+
+                    <label for = "brand">Phone Number</label>
+                    <input type = "text" class = "form-control" value = "$data.p_brand" id = "brand" name = "brand">
+
+            </div>
+
+            <br>
+
+            <div class = "form-group">
+
+                    <label for = "origin">Gender</label>
+                    <input type = "text" class = "form-control" value = "$data.p_origin" id = "origin" name = "origin">
+                    
+            </div>
+
+            <button type = "submit" class = "btn btn-primary">Update</button>
+
+        </form>
+
+    </body>
+
+</html>
